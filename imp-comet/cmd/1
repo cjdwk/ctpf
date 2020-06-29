@@ -1,0 +1,107 @@
+
+=====================================
+2020-06-08 10:46:27 0x7fe81c1f6700 INNODB MONITOR OUTPUT
+=====================================
+Per second averages calculated from the last 41 seconds
+-----------------
+BACKGROUND THREAD
+-----------------
+srv_master_thread loops: 1608 srv_active, 0 srv_shutdown, 2566108 srv_idle
+srv_master_thread log flush and writes: 2567229
+----------
+SEMAPHORES
+----------
+OS WAIT ARRAY INFO: reservation count 1971
+OS WAIT ARRAY INFO: signal count 2379
+RW-shared spins 0, rounds 3216, OS waits 1509
+RW-excl spins 0, rounds 2944, OS waits 176
+RW-sx spins 3, rounds 90, OS waits 3
+Spin rounds per wait: 3216.00 RW-shared, 2944.00 RW-excl, 30.00 RW-sx
+------------
+TRANSACTIONS
+------------
+Trx id counter 49128240
+Purge done for trx's n:o < 49128225 undo n:o < 0 state: running but idle
+History list length 16
+LIST OF TRANSACTIONS FOR EACH SESSION:
+---TRANSACTION 422110267537248, not started
+0 lock struct(s), heap size 1136, 0 row lock(s)
+---TRANSACTION 422110267541848, not started
+0 lock struct(s), heap size 1136, 0 row lock(s)
+---TRANSACTION 422110267540008, not started
+0 lock struct(s), heap size 1136, 0 row lock(s)
+--------
+FILE I/O
+--------
+I/O thread 0 state: waiting for completed aio requests (insert buffer thread)
+I/O thread 1 state: waiting for completed aio requests (log thread)
+I/O thread 2 state: waiting for completed aio requests (read thread)
+I/O thread 3 state: waiting for completed aio requests (read thread)
+I/O thread 4 state: waiting for completed aio requests (read thread)
+I/O thread 5 state: waiting for completed aio requests (read thread)
+I/O thread 6 state: waiting for completed aio requests (write thread)
+I/O thread 7 state: waiting for completed aio requests (write thread)
+I/O thread 8 state: waiting for completed aio requests (write thread)
+I/O thread 9 state: waiting for completed aio requests (write thread)
+Pending normal aio reads: [0, 0, 0, 0] , aio writes: [0, 0, 0, 0] ,
+ ibuf aio reads:, log i/o's:, sync i/o's:
+Pending flushes (fsync) log: 0; buffer pool: 0
+2811 OS file reads, 17132 OS file writes, 7421 OS fsyncs
+0.00 reads/s, 0 avg bytes/read, 0.07 writes/s, 0.00 fsyncs/s
+-------------------------------------
+INSERT BUFFER AND ADAPTIVE HASH INDEX
+-------------------------------------
+Ibuf: size 1, free list len 0, seg size 2, 3 merges
+merged operations:
+ insert 3, delete mark 0, delete 0
+discarded operations:
+ insert 0, delete mark 0, delete 0
+Hash table size 34673, node heap has 2 buffer(s)
+Hash table size 34673, node heap has 126 buffer(s)
+Hash table size 34673, node heap has 1 buffer(s)
+Hash table size 34673, node heap has 1 buffer(s)
+Hash table size 34673, node heap has 8 buffer(s)
+Hash table size 34673, node heap has 1 buffer(s)
+Hash table size 34673, node heap has 9 buffer(s)
+Hash table size 34673, node heap has 1 buffer(s)
+0.00 hash searches/s, 0.20 non-hash searches/s
+---
+LOG
+---
+Log sequence number 1029230798
+Log flushed up to   1029230798
+Pages flushed up to 1029230798
+Last checkpoint at  1029230789
+0 pending log flushes, 0 pending chkp writes
+4803 log i/o's done, 0.00 log i/o's/second
+----------------------
+BUFFER POOL AND MEMORY
+----------------------
+Total large memory allocated 137428992
+Dictionary memory allocated 380392
+Buffer pool size   8191
+Free buffers       5331
+Database pages     2711
+Old database pages 1008
+Modified db pages  0
+Pending reads      0
+Pending writes: LRU 0, flush list 0, single page 0
+Pages made young 1, not young 0
+0.00 youngs/s, 0.00 non-youngs/s
+Pages read 2454, created 257, written 11493
+0.00 reads/s, 0.00 creates/s, 0.07 writes/s
+Buffer pool hit rate 1000 / 1000, young-making rate 0 / 1000 not 0 / 1000
+Pages read ahead 0.00/s, evicted without access 0.00/s, Random read ahead 0.00/s
+LRU len: 2711, unzip_LRU len: 0
+I/O sum[0]:cur[0], unzip sum[0]:cur[0]
+--------------
+ROW OPERATIONS
+--------------
+0 queries inside InnoDB, 0 queries in queue
+0 read views open inside InnoDB
+Process ID=1224, Main thread ID=140634920830720, state: sleeping
+Number of rows inserted 1300661, updated 173, deleted 0, read 1719623094
+0.00 inserts/s, 0.00 updates/s, 0.00 deletes/s, 0.00 reads/s
+----------------------------
+END OF INNODB MONITOR OUTPUT
+============================

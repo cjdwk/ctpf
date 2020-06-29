@@ -1,0 +1,52 @@
+syntax = "proto3";
+
+package ctpf.comet;
+option go_package = "api";
+
+//import "github.com/gogo/protobuf/gogoproto/gogo.proto";
+
+/*
+ * v1.0.0
+ * protocol
+ */
+/*message Proto {
+    int32 ver = 1 [(gogoproto.jsontag) = "ver"];
+    int32 op = 2 [(gogoproto.jsontag) = "op"];
+    int32 seq = 3 [(gogoproto.jsontag) = "seq"];
+    bytes body = 4 [(gogoproto.jsontag) = "body"];
+}*/
+
+message Proto {
+    int32 ver = 1;
+    int32 op = 2;
+    int32 seq = 3;
+    bytes body = 4;
+}
+
+message Empty{}
+
+message PushMsgReq {
+    repeated string keys = 1;
+    int32 protoOp = 3;
+    Proto proto = 2;
+}
+
+message PushMsgReply {}
+
+message BroadcastReq{
+    string groupId = 1;
+    Proto proto = 2;
+}
+
+message BroadcastReply{}
+
+service Comet { 
+    // Ping Service 
+    rpc Ping(Empty) returns(Empty); 
+    // Close Service 
+    rpc Close(Empty) returns(Empty); 
+    //PushMsg push by key or mid
+    rpc PushMsg(PushMsgReq) returns (PushMsgReply);
+    // Broadcast send to every enrity
+    rpc Broadcast(BroadcastReq) returns (BroadcastReply);
+}
