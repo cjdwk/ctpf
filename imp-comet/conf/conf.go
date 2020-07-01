@@ -10,6 +10,7 @@ import (
 
 	"github.com/oofpgDLD/ctpf/library/discovery"
 	env "github.com/oofpgDLD/ctpf/library/environment"
+	"github.com/oofpgDLD/ctpf/library/trace"
 )
 
 var (
@@ -59,7 +60,7 @@ func Default() *Config {
 		Debug:     debug,
 		Env:       &env.Env{Region: region, Zone: zone, DeployEnv: deployEnv, Host: host, Weight: weight, Addrs: strings.Split(addrs, ","), Offline: offline},
 		Discovery: &discovery.Discovery{Address:"172.16.103.31:2379", Name:"root", Password:"admin"},
-		Trace: &Trace{LocalAgentHostPort:"172.16.103.31:5775"},
+		Trace: &trace.Trace{LocalAgentHostPort:"172.16.103.31:5775"},
 		RPCClient: &RPCClient{
 			Dial:    xtime.Duration(time.Second),
 			Timeout: xtime.Duration(time.Second),
@@ -103,7 +104,7 @@ type Config struct {
 	Debug     bool
 	Env       *env.Env
 	Discovery *discovery.Discovery
-	Trace     *Trace
+	Trace     *trace.Trace
 	Conn	  *Conn
 	TCP       *TCP
 	//Websocket *Websocket
@@ -147,9 +148,4 @@ type Bucket struct {
 	Group         int
 	RoutineAmount uint64
 	RoutineSize   int
-}
-
-type Trace struct {
-	//"172.16.103.31:5775"
-	LocalAgentHostPort string
 }

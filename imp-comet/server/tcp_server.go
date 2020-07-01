@@ -14,11 +14,11 @@ func InitTCP(svc *service.Service) error{
 	var (
 		r int
 	)
-	ls, err := net.Listen("tcp", "127.0.0.1:1234")
+	ls, err := net.Listen("tcp", "0.0.0.0:1234")
 	if err != nil {
 		return err
 	}
-
+	log.Info("serve tcp start listen [list:%v]")
 	go func(lis net.Listener) {
 		for {
 			conn, err := lis.Accept()

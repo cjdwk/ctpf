@@ -2,16 +2,16 @@ package main
 
 import (
 	"flag"
+	log "github.com/golang/glog"
+	proto "github.com/oofpgDLD/ctpf/imp-comet/api"
 	"github.com/oofpgDLD/ctpf/imp-comet/conf"
 	"github.com/oofpgDLD/ctpf/imp-comet/server"
 	"github.com/oofpgDLD/ctpf/imp-comet/server/grpc"
 	"github.com/oofpgDLD/ctpf/imp-comet/service"
-	"github.com/oofpgDLD/ctpf/library/discovery"
 	"os"
 	"os/signal"
 	"runtime"
 	"syscall"
-	log "github.com/golang/glog"
 )
 
 const(
@@ -24,21 +24,21 @@ func main() {
 		panic(err)
 	}
 	runtime.GOMAXPROCS(runtime.NumCPU())
-	println(conf.Conf.Debug)
-	log.Infof("goim-comet [version: %s] start", ver)
+	log.Infof("environment=%v",conf.Conf.Debug)
+	log.Infof("ctpf-comet [version=%v] start", ver)
 
 	//get server name
-	serverName := discovery.ServerName(conf.Conf.Env)
+	//serverName := discovery.ServerName(conf.Conf.Env)
 
 	// new comet server
-	srv := service.New(serverName, conf.Conf)
+	srv := service.New(proto.ServerName, conf.Conf)
 
 	//tcp serve
 	if err := server.InitTCP(srv); err != nil {
 		panic(err)
 	}
 
-	go grpc.New(serverName, conf.Conf, srv)
+	go grpc.New(conf.Conf, srv)
 	// signal
 	c := make(chan os.Signal, 1)
 	signal.Notify(c, syscall.SIGHUP, syscall.SIGQUIT, syscall.SIGTERM, syscall.SIGINT)
@@ -49,7 +49,7 @@ func main() {
 		case syscall.SIGQUIT, syscall.SIGTERM, syscall.SIGINT:
 			//rpcSrv.GracefulStop()
 			srv.Close()
-			log.Infof("goim-comet [version: %s] exit", ver)
+			log.Infof("ctpf-comet [version: %s] exit", ver)
 			log.Flush()
 			return
 		case syscall.SIGHUP:

@@ -1,5 +1,7 @@
 package api
 
+const ServerName = "ctpf.logic"
+
 /*func (m *ConnectReq) String() string {
 	return fmt.Sprintf("server:%s token:%s", m.Server, m.Token)
 }

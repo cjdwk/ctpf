@@ -26,7 +26,7 @@ var (
 )
 
 // New comet grpc server.
-func New(serverName string, c *conf.Config, s *comet.Service) {
+func New(c *conf.Config, s *comet.Service) {
 	if c.Discovery == nil {
 		err := xerrors.New("discovery config not find")
 		log.Error("init grpc api failed", "err", err)
@@ -45,7 +45,7 @@ func New(serverName string, c *conf.Config, s *comet.Service) {
 	)
 
 	cfg := config.Configuration{
-		ServiceName: serverName, //自定义服务名称
+		ServiceName: pb.ServerName, //自定义服务名称
 		Sampler: &config.SamplerConfig{
 			Type:  jaeger.SamplerTypeConst,
 			Param: 1,
@@ -59,7 +59,7 @@ func New(serverName string, c *conf.Config, s *comet.Service) {
 
 	tracer, closer, err := cfg.NewTracer()
 	if err != nil {
-		log.Error("init tracer failed", "err", err, "server", serverName)
+		log.Error("init tracer failed", "err", err, "server", pb.ServerName)
 		return
 	}
 	defer closer.Close()
@@ -68,7 +68,7 @@ func New(serverName string, c *conf.Config, s *comet.Service) {
 		// Set service registry
 		micro.Registry(registry),
 		// Set service name
-		micro.Name(serverName),
+		micro.Name(pb.ServerName),
 		// Set trace
 		micro.WrapHandler(opentracing.NewHandlerWrapper(tracer)),
 		// Set log wrapper
@@ -81,11 +81,11 @@ func New(serverName string, c *conf.Config, s *comet.Service) {
 	// Register handler
 	err = pb.RegisterCometHandler(service.Server(), &server{s})
 	if err != nil {
-		log.Error("register server failed", "err", err, "server", serverName)
+		log.Error("register server failed", "err", err, "server", pb.ServerName)
 	}
 	// Run the server
 	if err = service.Run(); err != nil {
-		log.Error("run grpc server failed", "err", err, "server", serverName)
+		log.Error("run grpc server failed", "err", err, "server", pb.ServerName)
 	}
 }
 

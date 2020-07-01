@@ -15,16 +15,16 @@ import (
 	"github.com/uber/jaeger-client-go"
 	"github.com/uber/jaeger-client-go/config"
 
+	pb "github.com/oofpgDLD/ctpf/imp-logic/api"
 	"github.com/oofpgDLD/ctpf/library/discovery"
-	"github.com/oofpgDLD/ctpf/imp-comet/conf"
-	proto "github.com/oofpgDLD/ctpf/imp-logic/api"
+	"github.com/oofpgDLD/ctpf/library/trace"
 )
 
 var (
 	log = log15.New("client", "grpc")
 )
 
-func New(serverName string, dCfg *discovery.Discovery, tCfg *conf.Trace) *Client {
+func New(serverName string, dCfg *discovery.Discovery, tCfg *trace.Trace) *Client {
 	if dCfg == nil {
 		err := errors.New("discovery config not find")
 		log.Error("init grpc client failed", "err", err)
@@ -72,17 +72,17 @@ func New(serverName string, dCfg *discovery.Discovery, tCfg *conf.Trace) *Client
 	)
 	// Create new greeter client
 	return &Client{
-		LogicService: proto.NewLogicService(serverName, c),
-		closer:            closer,
+		LogicService: pb.NewLogicService(pb.ServerName, c),
+		closer:       closer,
 	}
 }
 
 type Client struct {
-	proto.LogicService
+	pb.LogicService
 	closer io.Closer
 }
 
-func (c *Client) Close(ctx context.Context, in *proto.CloseReq, opts ...client.CallOption) (*proto.CloseReply, error){
+func (c *Client) Close(ctx context.Context, in *pb.CloseReq, opts ...client.CallOption) (*pb.CloseReply, error) {
 	c.closer.Close()
 	return c.LogicService.Close(ctx, in, opts...)
 }

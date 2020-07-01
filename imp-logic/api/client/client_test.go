@@ -1,8 +1,43 @@
 package client
 
 import (
+	"context"
+	"os"
+	"testing"
+
 	_ "github.com/micro/go-plugins"
+	pb "github.com/oofpgDLD/ctpf/imp-logic/api"
+	"github.com/oofpgDLD/ctpf/library/discovery"
+	"github.com/oofpgDLD/ctpf/library/trace"
+	"github.com/stretchr/testify/assert"
 )
+
+var cli *Client
+
+func TestMain(m *testing.M) {
+	d := &discovery.Discovery{
+		Address:  "172.16.103.31:2379",
+		Name:     "root",
+		Password: "admin",
+	}
+	tc := &trace.Trace{
+		LocalAgentHostPort: "172.16.103.31:5775",
+	}
+	cli = New("test-logic-gclient", d, tc)
+	os.Exit(m.Run())
+}
+
+func TestPing(t *testing.T) {
+	in := &pb.PingReq{}
+	reply, err := cli.Ping(context.Background(), in)
+	assert.Nil(t, err)
+	t.Log(reply)
+}
+
+func TestConnect(t *testing.T) {
+	//in :=
+	//cli.Connect(context.Background(),)
+}
 
 //
 //func Test_ClientAuth(t *testing.T) {

@@ -8,6 +8,9 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/ctpf$TestConnect_in_github_com_oofpgDLD_ctpf_imp_comet_service.out" NAME="TestConnect in github.com/oofpgDLD/ctpf/imp-comet/service Coverage Results" MODIFIED="1593597542932" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-11681711">
       <usages-collector id="statistics.lifecycle.project">
@@ -19,35 +22,37 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="Makefile" value="1" />
-          <entry key="go" value="115" />
-          <entry key="mod" value="2" />
-          <entry key="proto" value="8" />
-          <entry key="sh" value="5" />
-          <entry key="toml" value="1" />
+          <entry key="go" value="396" />
+          <entry key="mod" value="4" />
+          <entry key="proto" value="15" />
+          <entry key="s" value="2" />
+          <entry key="sh" value="7" />
+          <entry key="toml" value="5" />
           <entry key="version" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="DTD" value="2" />
-          <entry key="Go" value="115" />
-          <entry key="PLAIN_TEXT" value="8" />
-          <entry key="PROTO" value="8" />
+          <entry key="DTD" value="4" />
+          <entry key="Go" value="396" />
+          <entry key="PLAIN_TEXT" value="14" />
+          <entry key="PROTO" value="15" />
+          <entry key="x86 Plan9 Assembly" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Makefile" value="10" />
-          <entry key="go" value="945" />
-          <entry key="mod" value="19" />
+          <entry key="go" value="3056" />
+          <entry key="mod" value="21" />
           <entry key="proto" value="93" />
           <entry key="version" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="DTD" value="19" />
-          <entry key="Go" value="945" />
+          <entry key="DTD" value="21" />
+          <entry key="Go" value="3056" />
           <entry key="PLAIN_TEXT" value="12" />
           <entry key="PROTO" value="93" />
         </counts>
@@ -56,20 +61,35 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/imp-comet/cmd/main.go">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/imp-comet/service/operation_test.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="421">
-              <caret line="36" column="24" lean-forward="true" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
+            <state relative-caret-position="638">
+              <caret line="37" column="19" lean-forward="true" selection-start-line="37" selection-start-column="19" selection-end-line="37" selection-end-column="19" />
+              <folding>
+                <element signature="e#17#49#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/imp-comet/server/tcp_server.go">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/imp-comet/service/service_test.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+            <state relative-caret-position="330">
+              <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+              <folding>
+                <element signature="e#17#87#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/imp-logic/cmd/main.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="418">
+              <caret line="37" column="16" lean-forward="true" selection-start-line="37" selection-start-column="16" selection-end-line="37" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -92,38 +112,60 @@
       <find>logic</find>
       <find>ServerName</find>
       <find>ls</find>
+      <find>Header called after Handler finished</find>
+      <find>ch</find>
+      <find>w</find>
+      <find>proto</find>
+      <find>api</find>
     </findStrings>
     <replaceStrings>
       <replace>ctpf/imp-comet</replace>
       <replace>ctpf/imp-logic</replace>
+      <replace>pb</replace>
     </replaceStrings>
     <dirStrings>
       <dir>D:\goPath\src\github.com\oofpgDLD\ctpf\imp-logic\api</dir>
     </dirStrings>
   </component>
   <component name="GOROOT" path="D:\Go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/go.mod" />
         <option value="$PROJECT_DIR$/imp-comet/api/api.proto" />
         <option value="$PROJECT_DIR$/imp-logic/api/api.proto" />
-        <option value="$PROJECT_DIR$/imp-logic/api/api.go" />
-        <option value="$PROJECT_DIR$/imp-logic/api/client/client_test.go" />
         <option value="$PROJECT_DIR$/imp-comet/version" />
         <option value="$PROJECT_DIR$/imp-comet/Makefile" />
-        <option value="$PROJECT_DIR$/imp-logic/server/grpc/grpc.go" />
         <option value="$PROJECT_DIR$/imp-comet/service/operation.go" />
         <option value="$PROJECT_DIR$/library/discovery/discovery.go" />
         <option value="$PROJECT_DIR$/library/environment/env.go" />
-        <option value="$PROJECT_DIR$/imp-comet/server/grpc/grpc.go" />
-        <option value="$PROJECT_DIR$/imp-logic/api/client/client.go" />
-        <option value="$PROJECT_DIR$/imp-comet/service/service.go" />
-        <option value="$PROJECT_DIR$/imp-comet/conf/conf.go" />
-        <option value="$PROJECT_DIR$/library/discovery/naming.go" />
-        <option value="$PROJECT_DIR$/imp-comet/cmd/main.go" />
         <option value="$PROJECT_DIR$/tools/vclient/cmd/main.go" />
         <option value="$PROJECT_DIR$/imp-comet/server/tcp_server.go" />
+        <option value="$PROJECT_DIR$/imp-logic/dao/dao.go" />
+        <option value="$PROJECT_DIR$/imp-logic/service/conn.go" />
+        <option value="$PROJECT_DIR$/imp-logic/dao/dao_test.go" />
+        <option value="$PROJECT_DIR$/imp-logic/dao/redis.go" />
+        <option value="$PROJECT_DIR$/imp-logic/dao/redis_test.go" />
+        <option value="$PROJECT_DIR$/imp-logic/service/service.go" />
+        <option value="$PROJECT_DIR$/library/discovery/naming.go" />
+        <option value="$PROJECT_DIR$/library/trace/trace.go" />
+        <option value="$PROJECT_DIR$/imp-comet/conf/conf.go" />
+        <option value="$PROJECT_DIR$/imp-logic/api/client/main_test.go" />
+        <option value="$PROJECT_DIR$/imp-logic/api/api.go" />
+        <option value="$PROJECT_DIR$/imp-logic/cmd/main.go" />
+        <option value="$PROJECT_DIR$/imp-comet/service/service.go" />
+        <option value="$PROJECT_DIR$/imp-comet/api/api.go" />
+        <option value="$PROJECT_DIR$/imp-comet/server/grpc/grpc.go" />
+        <option value="$PROJECT_DIR$/imp-comet/cmd/main.go" />
+        <option value="$PROJECT_DIR$/go.mod" />
+        <option value="$PROJECT_DIR$/imp-logic/api/client/client.go" />
+        <option value="$PROJECT_DIR$/imp-logic/server/grpc/grpc.go" />
+        <option value="$PROJECT_DIR$/imp-logic/api/client/client_test.go" />
+        <option value="$PROJECT_DIR$/imp-logic/conf/conf.go" />
+        <option value="$PROJECT_DIR$/imp-comet/service/operation_test.go" />
+        <option value="$PROJECT_DIR$/imp-comet/service/service_test.go" />
       </list>
     </option>
   </component>
@@ -139,6 +181,7 @@
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -151,6 +194,66 @@
             <path>
               <item name="ctpf" type="b2602c69:ProjectViewProjectNode" />
               <item name="ctpf" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ctpf" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ctpf" type="462c0819:PsiDirectoryNode" />
+              <item name="imp-comet" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ctpf" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ctpf" type="462c0819:PsiDirectoryNode" />
+              <item name="imp-comet" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ctpf" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ctpf" type="462c0819:PsiDirectoryNode" />
+              <item name="imp-logic" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ctpf" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ctpf" type="462c0819:PsiDirectoryNode" />
+              <item name="imp-logic" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ctpf" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ctpf" type="462c0819:PsiDirectoryNode" />
+              <item name="imp-logic" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ctpf" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ctpf" type="462c0819:PsiDirectoryNode" />
+              <item name="imp-logic" type="462c0819:PsiDirectoryNode" />
+              <item name="cmd" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ctpf" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ctpf" type="462c0819:PsiDirectoryNode" />
+              <item name="imp-logic" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ctpf" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ctpf" type="462c0819:PsiDirectoryNode" />
+              <item name="imp-logic" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ctpf" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ctpf" type="462c0819:PsiDirectoryNode" />
+              <item name="imp-logic" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="grpc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ctpf" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ctpf" type="462c0819:PsiDirectoryNode" />
+              <item name="imp-logic" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -169,10 +272,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\goPath\src\github.com\oofpgDLD\ctpf\imp-logic\dao" />
+      <recent name="D:\goPath\src\github.com\oofpgDLD\ctpf\imp-logic\cmd" />
+      <recent name="D:\goPath\src\github.com\oofpgDLD\ctpf\tools" />
       <recent name="D:\goPath\src\github.com\oofpgDLD\ctpf\imp-comet" />
       <recent name="D:\goPath\src\github.com\oofpgDLD\ctpf\imp-logic\api\client" />
-      <recent name="D:\goPath\src\github.com\oofpgDLD\ctpf\imp-logic\api" />
-      <recent name="D:\goPath\src\github.com\oofpgDLD\ctpf" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -187,12 +291,12 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build main.go (1)">
-    <configuration name="go build main.go (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Test.TestConnect in github.com/oofpgDLD/ctpf/imp-comet/service">
+    <configuration name="go build main.go (2)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="ctpf" />
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/tools/vclient/cmd/main.go" />
+      <filePath value="$PROJECT_DIR$/imp-logic/cmd/main.go" />
       <package value="github.com/oofpgDLD/ctpf" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
@@ -206,28 +310,99 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
+    <configuration name="TestConnect in github.com/oofpgDLD/ctpf/imp-comet/service" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="ctpf" />
+      <working_directory value="$PROJECT_DIR$/imp-comet/service" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="github.com/oofpgDLD/ctpf/imp-comet/service" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestConnect$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestDaoAddMapping in github.com/oofpgDLD/ctpf/imp-logic/dao" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="ctpf" />
+      <working_directory value="$PROJECT_DIR$/imp-logic/dao" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="github.com/oofpgDLD/ctpf/imp-logic/dao" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestDaoAddMapping$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestPing in github.com/oofpgDLD/ctpf/imp-logic/api/client" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="ctpf" />
+      <working_directory value="$PROJECT_DIR$/imp-logic/api/client" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="github.com/oofpgDLD/ctpf/imp-logic/api/client" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestPing$" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Go Build.go build main.go" />
-      <item itemvalue="Go Build.go build main.go (1)" />
+      <item itemvalue="Go Test.TestDaoAddMapping in github.com/oofpgDLD/ctpf/imp-logic/dao" />
+      <item itemvalue="Go Build.go build main.go (2)" />
+      <item itemvalue="Go Test.TestPing in github.com/oofpgDLD/ctpf/imp-logic/api/client" />
+      <item itemvalue="Go Test.TestConnect in github.com/oofpgDLD/ctpf/imp-comet/service" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build main.go (1)" />
+        <item itemvalue="Go Test.TestConnect in github.com/oofpgDLD/ctpf/imp-comet/service" />
+        <item itemvalue="Go Build.go build main.go (2)" />
+        <item itemvalue="Go Test.TestPing in github.com/oofpgDLD/ctpf/imp-logic/api/client" />
         <item itemvalue="Go Build.go build main.go" />
+        <item itemvalue="Go Test.TestDaoAddMapping in github.com/oofpgDLD/ctpf/imp-logic/dao" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="TestHistory">
+    <history-entry file="TestConnect_in_github_com_oofpgDLD_ctpf_imp-comet_service - 2020.07.01 at 17h 56m 35s.xml">
+      <configuration name="TestConnect in github.com/oofpgDLD/ctpf/imp-comet/service" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestConnect_in_github_com_oofpgDLD_ctpf_imp-comet_service - 2020.07.01 at 17h 59m 06s.xml">
+      <configuration name="TestConnect in github.com/oofpgDLD/ctpf/imp-comet/service" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestConnect_in_github_com_oofpgDLD_ctpf_imp-comet_service - 2020.07.01 at 18h 00m 12s.xml">
+      <configuration name="TestConnect in github.com/oofpgDLD/ctpf/imp-comet/service" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestConnect_in_github_com_oofpgDLD_ctpf_imp-comet_service - 2020.07.01 at 18h 02m 13s.xml">
+      <configuration name="TestConnect in github.com/oofpgDLD/ctpf/imp-comet/service" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestConnect_in_github_com_oofpgDLD_ctpf_imp-comet_service - 2020.07.01 at 18h 05m 02s.xml">
+      <configuration name="TestConnect in github.com/oofpgDLD/ctpf/imp-comet/service" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestConnect_in_github_com_oofpgDLD_ctpf_imp-comet_service - 2020.07.01 at 18h 08m 25s.xml">
+      <configuration name="TestConnect in github.com/oofpgDLD/ctpf/imp-comet/service" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestConnect_in_github_com_oofpgDLD_ctpf_imp-comet_service - 2020.07.01 at 19h 09m 57s.xml">
+      <configuration name="TestConnect in github.com/oofpgDLD/ctpf/imp-comet/service" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestConnect_in_github_com_oofpgDLD_ctpf_imp-comet_service - 2020.07.01 at 19h 11m 21s.xml">
+      <configuration name="TestConnect in github.com/oofpgDLD/ctpf/imp-comet/service" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestConnect_in_github_com_oofpgDLD_ctpf_imp-comet_service - 2020.07.01 at 19h 12m 03s.xml">
+      <configuration name="TestConnect in github.com/oofpgDLD/ctpf/imp-comet/service" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestConnect_in_github_com_oofpgDLD_ctpf_imp-comet_service - 2020.07.01 at 19h 13m 56s.xml">
+      <configuration name="TestConnect in github.com/oofpgDLD/ctpf/imp-comet/service" configurationId="GoTestRunConfiguration" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28997868" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28997868" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.0835141" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.0835141" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.345987" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.22909881" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3756786" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -235,6 +410,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="right" id="Coverage" side_tool="true" weight="0.32995737" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -254,297 +430,199 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/imp-comet/server/grpc/grpc.go</url>
-          <line>43</line>
+          <url>file://$PROJECT_DIR$/imp-comet/service/service_test.go</url>
+          <line>14</line>
           <properties />
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/imp-logic/api/client/client.go</url>
-          <line>47</line>
-          <properties />
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/imp-comet/cmd/main.go</url>
-          <line>36</line>
-          <properties />
-          <option name="timeStamp" value="9" />
+          <option name="timeStamp" value="23" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/go.mod">
+    <entry file="file://$PROJECT_DIR$/../../../../pkg/mod/github.com/micro/go-micro@v1.18.0/transport/http_transport.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+        <state relative-caret-position="411">
+          <caret line="285" column="32" selection-start-line="285" selection-start-column="32" selection-end-line="285" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../Terry-Mao/goim/api/comet/grpc/api.pb.go">
+    <entry file="file://D:/GO/src/net/http/header.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="29" column="5" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+        <state relative-caret-position="231">
+          <caret line="35" column="16" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/imp-logic/api/proto.sh">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/imp-logic/api/api.proto">
+    <entry file="file://$PROJECT_DIR$/../../../../pkg/mod/golang.org/x/net@v0.0.0-20191109021931-daa7c04131f5/http2/server.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="138" column="51" lean-forward="true" selection-start-line="138" selection-start-column="4" selection-end-line="138" selection-end-column="51" />
+        <state relative-caret-position="223">
+          <caret line="2597" selection-start-line="2597" selection-end-line="2597" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../../google.golang.org/grpc/clientconn.go">
+    <entry file="file://D:/GO/src/net/http/server.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="123" column="5" selection-start-line="123" selection-start-column="5" selection-end-line="123" selection-end-column="5" />
+        <state relative-caret-position="231">
+          <caret line="86" column="4" selection-start-line="86" selection-start-column="4" selection-end-line="86" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../../gitlab.33.cn/chat/chat33/library/trace/conf.go">
+    <entry file="file://$PROJECT_DIR$/../../Terry-Mao/goim/pkg/time/duration.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../gitlab.33.cn/chat/chat33/work/enterprise/api/api.pb.micro.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="48" column="5" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../gitlab.33.cn/chat/chat33/library/net/grpc/conf.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/imp-logic/api/api.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="2" lean-forward="true" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/imp-comet/service/auth.go">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/imp-comet/service/bucket.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="16" column="4" lean-forward="true" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/imp-comet/service/channel.go">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/imp-comet/service/group.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../google.golang.org/grpc/rpc_util.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="349" column="5" selection-start-line="349" selection-start-column="5" selection-end-line="349" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/imp-comet/api/api.go">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/imp-comet/api/api.pb.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+        <state relative-caret-position="154">
+          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
           <folding>
-            <element signature="e#84#167#0" expanded="true" />
+            <element signature="e#14#38#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/imp-comet/api/api.pb.micro.go">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/imp-comet/api/api.proto">
+    <entry file="file://$PROJECT_DIR$/imp-logic/cmd/logic-example.toml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="17" lean-forward="true" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/imp-comet/api/operation.go">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/imp-comet/api/proto.sh">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/imp-comet/api/protocol.go">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/imp-comet/Makefile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/imp-comet/version">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="16" selection-start-column="16" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../../pkg/mod/github.com/micro/go-micro@v1.18.0/options.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="71" column="5" selection-start-line="71" selection-start-column="5" selection-end-line="71" selection-end-column="5" />
+        <state relative-caret-position="1166">
+          <caret line="53" column="18" lean-forward="true" selection-start-line="53" selection-start-column="13" selection-end-line="53" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../../../../pkg/mod/github.com/micro/go-micro@v1.18.0/client/client.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1892">
-          <caret line="86" column="5" selection-start-line="86" selection-start-column="5" selection-end-line="86" selection-end-column="5" />
+        <state relative-caret-position="288">
+          <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
           <folding>
             <element signature="e#68#133#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../../../pkg/mod/github.com/micro/go-micro@v1.18.0/client/options.go">
+    <entry file="file://$PROJECT_DIR$/imp-logic/api/client/main_test.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-462" />
-      </provider>
-    </entry>
-    <entry file="file://D:/GO/src/io/io.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="97" column="5" selection-start-line="97" selection-start-column="5" selection-end-line="97" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../../pkg/mod/google.golang.org/grpc@v1.25.1/rpc_util.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="350" column="23" lean-forward="true" selection-start-line="350" selection-start-column="23" selection-end-line="350" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../../pkg/mod/github.com/micro/go-micro@v1.18.0/client/context.go">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/imp-logic/api/client/client_test.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/imp-logic/api/api.pb.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-14806">
-          <caret line="253" column="5" selection-start-line="253" selection-start-column="5" selection-end-line="253" selection-end-column="5" />
+        <state relative-caret-position="198">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
           <folding>
-            <element signature="e#84#219#0" expanded="true" />
+            <element signature="e#16#37#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/GO/src/builtin/builtin.go">
+    <entry file="file://$PROJECT_DIR$/../../../../pkg/mod/github.com/micro/go-micro@v1.18.0/server/server.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="255" column="5" selection-start-line="255" selection-start-column="5" selection-end-line="255" selection-end-column="5" />
+        <state relative-caret-position="132">
+          <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/imp-logic/api/api.pb.micro.go">
+    <entry file="file://$PROJECT_DIR$/../../../../pkg/mod/github.com/micro/go-micro@v1.18.0/options.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="60" column="5" selection-start-line="60" selection-start-column="5" selection-end-line="60" selection-end-column="5" />
-          <folding>
-            <element signature="e#87#324#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="325">
+          <caret line="146" column="19" selection-start-line="146" selection-start-column="19" selection-end-line="146" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/GO/src/flag/flag.go">
+    <entry file="file://$PROJECT_DIR$/../../../../pkg/mod/github.com/micro/go-micro@v1.18.0/micro.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="996" column="5" selection-start-line="996" selection-start-column="5" selection-end-line="996" selection-end-column="5" />
+        <state relative-caret-position="273">
+          <caret line="27" column="4" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/GO/src/runtime/panic.go">
+    <entry file="file://$PROJECT_DIR$/imp-comet/service/tcp_server.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="1186" selection-start-line="1186" selection-end-line="1186" />
+        <state relative-caret-position="-1298">
+          <caret line="58" column="47" selection-start-line="58" selection-start-column="47" selection-end-line="58" selection-end-column="47" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/imp-comet/cmd/comet-example.toml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/imp-comet/conf/conf.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="56" column="24" lean-forward="true" selection-start-line="56" selection-start-column="24" selection-end-line="56" selection-end-column="24" />
-          <folding>
-            <element signature="e#14#88#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/imp-comet/service/operation.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="55" column="5" lean-forward="true" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/library/environment/env.go">
+    <entry file="file://$PROJECT_DIR$/imp-logic/dao/redis.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+          <caret line="28" column="14" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/library/discovery/discovery.go">
+    <entry file="file://$PROJECT_DIR$/imp-logic/service/service.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="34" column="17" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
+          <folding>
+            <element signature="e#17#163#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imp-comet/api/api.proto">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imp-logic/api/proto.sh">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imp-logic/api/api.proto">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2597">
+          <caret line="6" column="55" selection-start-line="6" selection-start-column="55" selection-end-line="6" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/go.mod">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="32" lean-forward="true" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imp-logic/dao/dao.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="27" lean-forward="true" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+          <folding>
+            <element signature="e#13#121#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imp-logic/api/api.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
-          <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/library/discovery/naming.go">
+    <entry file="file://$PROJECT_DIR$/imp-comet/api/api.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+        <state relative-caret-position="44">
+          <caret line="2" column="16" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/imp-logic/server/grpc/grpc.go">
+    <entry file="file://$PROJECT_DIR$/imp-comet/service/auth.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="27" column="1" lean-forward="true" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
+        <state relative-caret-position="594">
+          <caret line="35" column="1" lean-forward="true" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imp-comet/cmd/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1034">
+          <caret line="59" column="1" lean-forward="true" selection-start-line="59" selection-start-column="1" selection-end-line="59" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imp-comet/errors/errors.go">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imp-comet/server/tcp_server.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+          <folding>
+            <element signature="e#16#108#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/imp-comet/server/grpc/grpc.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-608">
+        <state relative-caret-position="-2084">
           <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
           <folding>
             <element signature="e#14#597#0" expanded="true" />
@@ -552,44 +630,203 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/imp-logic/api/client/client.go">
+    <entry file="file://$PROJECT_DIR$/library/trace/trace.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="73" selection-start-line="73" selection-end-line="73" />
+        <state relative-caret-position="22">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/library/environment/env.go">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/library/discovery/naming.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/library/discovery/discovery.go">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imp-logic/api/api.pb.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="253" column="5" selection-start-line="253" selection-start-column="5" selection-end-line="253" selection-end-column="5" />
+          <folding>
+            <element signature="e#84#219#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imp-comet/api/api.pb.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+          <folding>
+            <element signature="e#84#167#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/GO/src/testing/testing.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="604" column="17" selection-start-line="604" selection-start-column="17" selection-end-line="604" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imp-comet/service/operation.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/GO/src/runtime/preempt_amd64.s">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imp-logic/dao/redis_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="902">
+          <caret line="46" column="22" lean-forward="true" selection-start-line="46" selection-start-column="4" selection-end-line="46" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imp-logic/dao/dao_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="35" column="1" lean-forward="true" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imp-logic/api/client/client_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="27" column="1" lean-forward="true" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
+          <folding>
+            <element signature="e#16#259#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/imp-comet/service/service.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="78" lean-forward="true" selection-start-line="78" selection-end-line="78" />
+        <state relative-caret-position="225">
+          <caret line="63" column="5" selection-start-line="63" selection-start-column="5" selection-end-line="63" selection-end-column="5" />
           <folding>
             <element signature="e#17#271#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tools/vclient/cmd/main.go">
+    <entry file="file://$PROJECT_DIR$/imp-comet/conf/conf.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="13" lean-forward="true" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        <state relative-caret-position="22">
+          <caret line="57" column="5" selection-start-line="57" selection-start-column="5" selection-end-line="57" selection-end-column="5" />
           <folding>
-            <element signature="e#14#64#0" expanded="true" />
+            <element signature="e#14#223#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/imp-comet/cmd/main.go">
+    <entry file="file://$PROJECT_DIR$/imp-logic/conf/conf.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="421">
-          <caret line="36" column="24" lean-forward="true" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
+        <state relative-caret-position="555">
+          <caret line="74" column="5" lean-forward="true" selection-start-line="74" selection-start-column="5" selection-end-line="74" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/imp-comet/server/tcp_server.go">
+    <entry file="file://$PROJECT_DIR$/imp-logic/api/client/client.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        <state relative-caret-position="263">
+          <caret line="73" selection-start-line="73" selection-end-line="73" />
+          <folding>
+            <element signature="e#16#546#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imp-logic/server/grpc/grpc.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="119" selection-start-line="119" selection-end-line="119" />
+          <folding>
+            <element signature="e#14#550#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imp-logic/api/api.pb.micro.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="205" selection-start-line="205" selection-end-line="205" />
+          <folding>
+            <element signature="e#87#324#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/GO/src/reflect/value.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="320" selection-start-line="320" selection-end-line="320" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../../pkg/mod/github.com/micro/go-micro@v1.18.0/server/rpc_router.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="227" selection-start-line="227" selection-end-line="227" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../../pkg/mod/github.com/micro/go-micro@v1.18.0/server/rpc_server.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="393" selection-start-line="393" selection-end-line="393" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imp-logic/service/conn.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="e#17#154#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imp-logic/cmd/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="37" column="16" lean-forward="true" selection-start-line="37" selection-start-column="16" selection-end-line="37" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imp-comet/service/service_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+          <folding>
+            <element signature="e#17#87#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imp-comet/service/operation_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="638">
+          <caret line="37" column="19" lean-forward="true" selection-start-line="37" selection-start-column="19" selection-end-line="37" selection-end-column="19" />
+          <folding>
+            <element signature="e#17#49#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
